@@ -1,5 +1,3 @@
-# blog/models.py
-
 from . import db
 import datetime
 

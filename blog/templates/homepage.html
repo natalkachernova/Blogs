@@ -7,6 +7,9 @@
         <a href="{{ url_for('add_edit_entry', entry_id=0) }}">
                 Нова публікація
         </a>
+        <a href="{{ url_for('list_drafts') }}">
+                Чернетки
+        </a>
 </div>
 
 {% for post in all_posts %}
